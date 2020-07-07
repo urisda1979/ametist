@@ -1,17 +1,66 @@
+@font-face {
+    src: url('../fonts/ofont.ru_Bebas Neue.ttf');
+    font-family: "Bebas Neue";
+}
+
+@font-face {
+    src: url('../fonts/Muller-Light.otf');
+    font-family: "Muller Light";
+}
+
+@font-face {
+    src: url('../fonts/Muller-Medium.otf');
+    font-family: "Muller Medium";
+}
+
+@font-face {
+    src: url('../fonts/Muller-Regular.otf');
+    font-family: "Muller Regular";
+}
 body {
     margin: 0;
     padding: 0;
 }
 
 .header {
-    background: #bcc9d2;
+    width: 100%;
+    height: auto;
+    background: url('../img/background-image.jpg') center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
-    /* display: flex; */
+    display: flex;
     width: 1024px;
     height: 2000px;
     margin: 0 auto;
+}
+
+.hands_image {
+    margin: 0 auto;
+    padding: 0;
+    width: 820px;
+    height: 1400px;
+}
+
+.title_name {
+    display: block;
+    text-align: right;
+    margin: 0;
+    padding-top: 75px;
+    font-family: "Bebas Neue";
+    font-size: 45pt;
+    font-weight: 100;
+    color: red;
+    line-height: 40px;
+}
+
+.subtitle {
+    font-family: "Muller Regular";
+    font-size: 13pt;
+    font-weight: normal;
+    text-transform: lowercase;
 }
 
 .photo {
