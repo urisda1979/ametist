@@ -20,6 +20,7 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: content-box;
 }
 
 .header {
@@ -30,39 +31,65 @@ body {
     background-size: cover;
 }
 
-.container {
+/*.container {
     display: flex;
     width: 1024px;
     height: 2000px;
     margin: 0 auto;
-}
+}*/
 
 .hands_image {
     margin: 0 auto;
     padding: 0;
-    width: 820px;
-    height: 1400px;
+    width: 410px;
+    height: 700px;
+}
+
+.logo {
+    margin-left: -200px;
+    padding-top: 35px;
+    width: 120px;
+    height: 80px;
+}
+
+.title {
+    margin-left: 100px;
 }
 
 .title_name {
     display: block;
     text-align: right;
     margin: 0;
-    padding-top: 75px;
+    
+    padding-top: 55px;
     font-family: "Bebas Neue";
-    font-size: 45pt;
-    font-weight: 100;
-    color: red;
-    line-height: 40px;
+    font-size: 70px;
+    font-weight: 400;
+    color: #FE0130;
+    line-height: 20px;
 }
 
 .subtitle {
     font-family: "Muller Regular";
-    font-size: 13pt;
+    font-size: 26px;
     font-weight: normal;
     text-transform: lowercase;
 }
 
 .photo {
-    margin-left: 25px;
+    margin-left: 12px;
+}
+
+.nav {
+    margin-top: 50px;
+    margin-left: -200px;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.nav-link:hover, .nav-link:active {
+    color: #FE0130;
 }
